@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>To Do List</h2>
+    <button onclick="showList()" class="btn">Show</button>
+    <button onclick="hideList()" class="btn">Hide</button>
+    <div id="divList" class="hidden">
+        <ul id="list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+        </ul>
+        <input type="text" name="input" id="textInput" placeholder="Enter new item here"><br>
+        <button id="addButton" class="btn">Add</button>
+        <button id="removeButton" class="btn">Remove</button>
+        <button id="clearButton" class="btn">Clear</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

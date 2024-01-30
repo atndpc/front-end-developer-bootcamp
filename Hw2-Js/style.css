@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background-color: hsl(150, 100%, 0%);
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.btn {
+    display: inline-block;
+    background-color: hsl(120, 70%, 50%);
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: hsl(120, 70%, 40%);
+    color: white;
+    cursor: pointer;
+}

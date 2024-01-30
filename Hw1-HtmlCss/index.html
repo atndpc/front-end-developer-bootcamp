@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <h1 id="heading">Welcome to my website!</h1>
+
+  <div class="btn-main">
+    <a href="profile.html" title="Go to profile page">Profile</a>
+  </div>
+  <div class="btn-main">
+    <a href="products.html" title="Go to product page">Products</a>
+  </div>
+  <div class="btn-main">
+    <a href="contact.html" title="Go to contact page">Contact</a>
+  </div>
+  <br>
+
+  <img src="main.jpg" alt="starwars character cross the road" width="40%" height="40%">
+  <br>
+
+  <h2 style="margin-bottom: 10px;">Let me get to know you</h2>
+
+  <form id="form-register">
+    <label for="fullname-input">Name:</label>
+    <input type="text" id="fullname-input" name="fullname" placeholder="Enter your name">
+    <label for="email-input">Email:</label>
+    <input type="email" id="email-input" name="email" placeholder="Enter your e-mail">
+    <br>
+    <p style="margin: 5px;"></p>
+
+    <label for="gender-male">Male:</label>
+    <input type="radio" id="gender-male" name="gender">
+    <label for="gender-female">Female:</label>
+    <input type="radio" id="gender-female" name="gender">
+    <label for="gender-other">Other:</label>
+    <input type="radio" id="gender-other" name="gender">
+    <br>
+    <p style="margin: 5px;"></p>
+
+    <label for="topics">Topics you are interested in:</label>
+    <select name="topics" id="topics">
+      <option value="dance">Dancing</option>
+      <option value="program">Programming</option>
+      <option value="engineer">Engineering</option>
+    </select>
+    <br>
+
+    <input type="submit" value="Submit" class="btn-submit">
+  </form>
+  <br>
+</body>
