@@ -2,6 +2,11 @@ html {
     font-size: 1.25rem;
 }
 
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /*=====Header=====*/
 .header-container {
     display: grid;
@@ -29,22 +34,8 @@ html {
 .logo {
     width: 7rem;
     height: 7rem;
-    border: 1px greenyellow solid;
-}
-
-/*=====Footer=====*/
-.footer-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 5rem;
-}
-
-.footer {
-    display: grid;
-    background-color: black;
-    justify-content: center;
-    align-content: center;
-    color: white;
+    border: 3px #7eff00 solid;
+    border-radius: 20%;
 }
 
 /*=====Main=====*/
@@ -52,15 +43,13 @@ html {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, 20rem);
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem;
+    gap: 1rem;
     padding: 1rem;
     text-align: center;
 }
 
 .item {
-    position: relative;
-    border: 1px lightgray solid;
+    border: 1px #ccc solid;
 }
 
 .product-photo {
@@ -96,7 +85,7 @@ html {
 }
 
 .btn {
-    border: 1px gray solid;
+    border: 1px #ccc solid;
     padding: 0.5rem;
 }
 
@@ -107,8 +96,24 @@ html {
 .buy {
     background-color: hsl(120, 100%, 30%);
     color: white;
+    transition: all 0.3s;
 }
 
 .buy:hover {
     background-color: hsl(120, 100%, 15%);
+}
+
+/*=====Footer=====*/
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5rem;
+}
+
+.footer {
+    display: grid;
+    background-color: black;
+    justify-content: center;
+    align-content: center;
+    color: white;
 }
